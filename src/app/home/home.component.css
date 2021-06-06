@@ -1,6 +1,7 @@
-.myhome{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: tomato;
-    width: 800px;
+
+
+.mcontainer{
+    flex-wrap: flex;
+    padding-left: 15%;
+    padding-right: 15%;
 }

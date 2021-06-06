@@ -1,24 +1,29 @@
 
 
-<div class="row myblock shadow-lg p-3 mb-5 bg-black rounded" >
+<div class="row myblock shadow-lg bg-black rounded mcitydetail" >
     <a [routerLink]="['/info',city1.id]">
         <div class="row cimage rounded">
-      
-                
-          
-            <div class="col-md-6 mrow"  >
+            <div class="col-md-12">
                 <div class="row  mcity" >
                     <span  >{{city1.name}},{{city1.country}}</span>
                 </div>
                 <div class="row mdate">
                     <span  >{{city1.dt|date:'h.mmaa,MMM d'}}</span>
                 </div>
-                
+            </div>
+            <div class="col-md-5 mrow"  >
+                <div style="justify-content: right;padding-left: 95%;">
+                    <img src="../../assets/Images/Vector Smart Object@1X.png"style="justify-content:right;">
+                </div>
                 <div class="row mdes">
                     <span>{{city1.description|titlecase}}</span>
                 </div>
             </div>
-            <div class="col-md-6 mrow">
+            <div class="col-md-2" style="display: inline-flex;justify-content: center;">
+                <div style="display: inline-flex;border-right:2px solid  white;opacity: 0.3;"></div>
+            <div  style="border-left:2px solid  white;display: inline-flex;opacity: 0.3;"></div>
+            </div>
+            <div class="col-md-5 mrow">
                 <div class="row mtemp">
                     <span>{{city1.temp}}&#8451;</span>
                 </div>
@@ -30,16 +35,16 @@
                 </div>
             </div>
         </div>
-        <div class="row bottompart">
-            <div class="col-md-4 bcol1">
+        <div class="row bottompart" style="padding-left: 15%;">
+            <div class="col-md-4 bcol1" >
                 <div class="row">Pressure &#58;{{city1.pressure}} hPa</div>
                 <div class="row">Humidity &#58;{{city1.humidity}} %</div>
                 <div class="row">Visibility &#58;{{city1.visibility}} km</div>
             </div>
             <div class="col-md-4 bcol1">
-                <div class="row">	&nbsp;</div>
-                <div class="row">	&nbsp;</div>
-                <div class="row">{{city1.wind_speed}}m&#47;s,{{city1.wind_deg}} Degree</div>
+                <div class="row" style="justify-content: center;padding-right: 55%;">	<img src="../../assets/Images/Vector Smart Object@1X (1).png"></div>
+                <div class="row"
+                style="padding-top: 10%;">{{city1.wind_speed}}m&#47;s,{{city1.wind_deg}} Degree</div>
             </div>
             <div class="col-md-4 bcol1">
                 <div class="row">	&nbsp;</div>

@@ -1,19 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 .bgimg{
     background-image: url("../assets/Images/Headerbg@1X.png");
     background-repeat: no-repeat;
+    background-color: #1f2128;
 }
 .mynav{
     padding-top: 86px;;
     color: white;
+    height: auto;
 }
 input{
     background-color: black;
     color: white;
+    height: 52px;
+    width: 532px;
+    outline: none;
+
 }
 button{
-    background-color: darkorchid;
+    background-color: #6c5dd3;
     color: white;
     font-size: small;
+    height: 52px;
+    width: 133px;
+    font-size:20;
+    font-family:'Open Sans', sans-serif;
+
 }
 
 .textbox{
@@ -26,5 +38,8 @@ Top:188;
 
 }
 .footerimg{
-    background-image: url("../assets/Images/Rectangle10@1X.png");
+    margin-top:39px;
+}
+.mfooter{
+    width: 1921px; background-color:#30333d ;height: 95px;
 }

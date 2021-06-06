@@ -97,4 +97,12 @@ export class WeatherService {
 
     }
   }
+  getCityWeather(idn:number){
+    
+    return this.cityWeather.filter((city:any)=>{
+    
+
+      return +city.id===+idn;
+    });
+  }
 }

@@ -7,14 +7,14 @@
     background-size: contain;
     display: block;
     color:white;
-    height: 219px;
-    width: 581px;
+    height: 392px;
+    width: 1202px;
     background-position: center bottom;
     display: flex;
     justify-content: center;
 }
 .myblock{
-    width: 581px;
+    width: 1202px;
     display: inline-flex;
     justify-content: center;
     padding:2%;
@@ -25,28 +25,33 @@
 }
 .bottompart{
     background-color: #383b47;
+    justify-content: center;
     color:white;
-    height: 152px;
-    width: 581px;
+    height: 208px;
+    width: 1202px;
 }
 .mrow{justify-content: center;font-family: 'Open Sans', sans-serif;
     
 }
 .mdate{
-    padding-top:5px;font-size: 18px;display:flex;
+    padding-top:5px;font-size: 20px;display:flex;
     justify-content: center;
 }
 .mcity{
     justify-content: center;
-    font-size: 32px;
+    font-size: 36px;
     display: flex;
     padding-top: 40px;
+   
+    
 }
 .mdes{
-    padding-top: 35px;
+    padding-top: 5px;
     font-size: 20px;
     justify-content: center;
     display: flex;
+    padding-left: 70%;
+    margin-left: 30%;
     
     
 }
@@ -54,19 +59,28 @@
     justify-content: center;
     font-size: 40px;
     display: flex;
-    padding-top: 40px;
+    padding-top: -20px;
+    padding-right: 80%;
 }
 .mntemp{
     padding-top:40px;font-size: 18px;display:flex;
     justify-content: center;
+    padding-right: 80%;
+
 }
 .mmtemp{
     font-size: 18px;display:flex;
     justify-content: center;
+    padding-right: 80%;
 }
 .bcol1{
     justify-content: center;
-    padding-left: 7%;
     padding-top: 7%;
     font-family:'Open Sans', sans-serif ;
+}
+.mcitydetail{
+    margin-left: 7%;
+    padding-left: 7%;
+    display: inline-block;
+    flex-wrap: flex;
 }
