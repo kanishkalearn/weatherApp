@@ -1,8 +1,9 @@
 .bgimg{
-    background-color: darkturquoise;
+    background-image: url("../assets/Images/Headerbg@1X.png");
+    background-repeat: no-repeat;
 }
 .mynav{
-    padding-top: 10%;;
+    padding-top: 86px;;
     color: white;
 }
 input{
@@ -13,4 +14,17 @@ button{
     background-color: darkorchid;
     color: white;
     font-size: small;
+}
+
+.textbox{
+    Width:531;
+    Height:52;
+Left:94;
+Top:188;
+
+
+
+}
+.footerimg{
+    background-image: url("../assets/Images/Rectangle10@1X.png");
 }
