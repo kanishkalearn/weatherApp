@@ -8,13 +8,13 @@
     display: block;
     color:white;
     height: 219px;
-    width: 581px;
+    width: 532px;
     background-position: center bottom;
     display: flex;
     justify-content: center;
 }
 .myblock{
-    width: 581px;
+    width: 532px;
     display: inline-flex;
     justify-content: center;
     padding:2%;
@@ -27,7 +27,7 @@
     background-color: #383b47;
     color:white;
     height: 152px;
-    width: 581px;
+    width: 532px;
 }
 .mrow{justify-content: center;font-family: 'Open Sans', sans-serif;
     
