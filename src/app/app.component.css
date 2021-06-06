@@ -1,0 +1,16 @@
+.bgimg{
+    background-color: darkturquoise;
+}
+.mynav{
+    padding-top: 10%;;
+    color: white;
+}
+input{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: darkorchid;
+    color: white;
+    font-size: small;
+}

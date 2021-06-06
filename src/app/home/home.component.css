@@ -1,0 +1,6 @@
+.myhome{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: tomato;
+    width: 800px;
+}

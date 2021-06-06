@@ -1,0 +1,25 @@
+.cimage{
+    background-image: url("../Images/component.png");
+    background-position: center;
+    background-repeat: repeat;;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    color:white;
+    
+}
+.myblock{
+    width: 500px;
+    display: inline-block;
+    padding:2%;
+    margin: 1%;
+    box-shadow: 1px 1px ;
+
+}
+.bottompart{
+    background-color: darkslategrey;
+    color:white;
+}

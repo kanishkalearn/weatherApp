@@ -1,0 +1,45 @@
+
+<div class="row myblock shadow-lg p-3 mb-5 bg-black rounded" >
+    <div class="row cimage rounded">
+        <div class="col-md-6">
+            <div class="row">
+                <span>{{city1.name}},{{city1.country}}</span>
+            </div>
+            <div class="row">
+                <span>{{city1.dt|date:'h.mmaa,MMM d'}}</span>
+            </div>
+            <div class="row">
+                <span>{{city1.description}}</span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <span>{{city1.temp}}&#8451;</span>
+            </div>
+            <div class="row">
+                <span>{{city1.temp_min}}&#8451;</span>
+            </div>
+            <div class="row">
+                <span>{{city1.temp_max}}&#8451;</span>
+            </div>
+        </div>
+    </div>
+    <div class="row bottompart">
+        <div class="col-md-4">
+            <div class="row">Pressure &#58;{{city1.pressure}} hPa</div>
+            <div class="row">Humidity &#58;{{city1.humidity}} %</div>
+            <div class="row">Visibility &#58;{{city1.visibility}} km</div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">	&nbsp;</div>
+            <div class="row">	&nbsp;</div>
+            <div class="row">{{city1.wind_speed}}m&#47;s,{{city1.wind_deg}} Degree</div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">	&nbsp;</div>
+            <div class="row">Sunrise&#58; {{city1.sunrise|date:'hh:mmaa'}} </div>
+            <div class="row">Sunset&#58;  {{city1.sunset|date:'hh:mmaa'}}</div>
+        </div>
+    </div>
+</div>
+
