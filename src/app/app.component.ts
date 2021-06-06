@@ -20,16 +20,9 @@ export class AppComponent implements OnInit {
 
   addCity(){
     var result:string= this.weatherService.addcity(this.newCity);
-   if(result==="Already Exist"){
-    alert("City you entered already exist");
-   }else if(result==="Success"){
-    alert("Added Succesfully");
-    this.newCity='';
-   }else if(result==='error'){
-    alert("Something wrong with City you given");
-   }else{
-     console.log("done");
-   }
+    
+   
+
 
   }
   

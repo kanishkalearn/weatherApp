@@ -10,6 +10,7 @@ import cities from './cities.json'
 export class WeatherService {
   private cityList: any = [];
   private cityWeather: any = [];
+  msg1='';
 
   constructor(private http: HttpClient) { }
 
@@ -17,8 +18,8 @@ export class WeatherService {
     return this.cityWeather;
   }
 
-  addcity(city: string): any {
-    var msg:string='';
+  addcity(city: string): string {
+    
     this.http.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=3c074e7a133944525fdde968b0e7fffa')
       .subscribe((res: any) => {
         if (this.cityList.map((p: any) => p['City Name']).every((c: any) => c !== res.name)) {
@@ -40,20 +41,21 @@ export class WeatherService {
             "name": res.name,
             "dt": res.dt
           });
+          
           this.cityList.push({
             'City Code': res.id, 'City Name': res.name
           });
-          msg="Success";
+          alert('success');
           
         } else {
-          msg="Already Exist";
           
+          alert('Already Exist');
         }
       },(err) => {
-        msg="Error";
+        alert('Invalid Name');
           
         });
-        return msg;
+        return this.msg1;
   }
 
   loadCities() {
